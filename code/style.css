@@ -1,4 +1,69 @@
 body {
-  background: plum;
-  color: white;
+  margin: 0;
+  background: #F4F4F4;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+}
+
+h1 {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 700;
+  margin: 40px;
+}
+
+h2 {
+  font-size: 50px;
+  color: #fff;
+}
+
+h3 {
+  font-size: 30px;
+  color: #fff;
+}
+
+p {
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 1.5;
+  color: #444;;
+}
+/*********** HEADER ********/
+/* The hero image */
+.hero-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0;
+  align-content: center;
+  text-align: center;
+}
+header {
+  /* The "linear-gradient" gives a darker feeling to the her image*/
+  /* Image / copied the relative path for the pic */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/Deskpic.JPG");
+  background-repeat: no-repeat;
+  /* To make the her picture cover the screen */
+  background-size: cover;
+  background-position: center;
+  /* The image change size on all screens */
+  position: relative;
+}
+
+header img {
+  top: 359px;
+  left: 176px;
+  width: 162px;
+  height: 162px;
+  background: transparent url("assets/Theresa\ profil\ Björn\ Axen\ \(kopia\).jpg") 0% 0% no-repeat padding-box;
+  border: 3px solid #FFFFFF;
+  opacity: 1;
+}
+
+/*******MEDIA QUERIES *********/
+
+@media (min-width: 650px) {
+  header {
+  justify-content: space-between;
+  }
 }
