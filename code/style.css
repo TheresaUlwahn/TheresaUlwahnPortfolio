@@ -1,13 +1,17 @@
 body {
   margin: 0;
   background: #F4F4F4;
-  color: #000000;
+  color:  #444;;
   font-family: 'Montserrat', sans-serif;
   /*font-family: 'Roboto', sans-serif;*/
+  /*top: 513px;
+  left: -1.0767822265625px;
+  width: 377px;
+  height: 342px;*/
 }
 
 h1 {
-  color: #fff;
+
   font-size: 65px;
   font-weight: 700;
   margin: 40px;
@@ -15,12 +19,12 @@ h1 {
 
 h2 {
   font-size: 50px;
-  color: #fff;
+
 }
 
 h3 {
   font-size: 30px;
-  color: #fff;
+
 }
 
 p {
@@ -30,6 +34,7 @@ p {
   color: #444;;
 }
 /*********** HEADER ********/
+
 /* The hero image */
 .hero-container {
   width: 80%;
@@ -57,7 +62,31 @@ header img {
   height: 162px;
   background: transparent url("assets/Theresa\ profil\ Björn\ Axen\ \(kopia\).jpg") 0% 0% no-repeat padding-box;
   border: 3px solid #FFFFFF;
+  border-radius: 100px;
   opacity: 1;
+}
+
+.summary-box {
+  top: 571px;
+  left: 37px;
+  width: 302px;
+  height: 228px;
+  text-align: left;
+  font: Regular 17px/29px Montserrat;
+  letter-spacing: 0;
+  opacity: 1;
+  margin: 20px;
+  padding: 50px;
+}
+
+
+/*******FOOTER *********/
+
+footer {
+  font-size: 15px;
+  text-align: right;
+  color: darkgray;
+  margin-right: 35px;
 }
 
 /*******MEDIA QUERIES *********/
