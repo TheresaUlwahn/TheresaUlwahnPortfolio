@@ -6,28 +6,29 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-
-.header  {
-  /*width: 562px;
-  height: 58px;*/
+.hero-container {
+  width: 562px;
+  height: 308px;
   width: 80%;
   margin: 0 auto;
   padding: 100px 0;
+  align-content: center;
+  text-align: left;
 }
 
 h1 {
-  margin: 0;
+  margin: 20px;
   font-size: 49px;
   padding: 0px;
 }
 
 h2 {
-  font-size: 48px;
-  margin: 0;
+  font-size: 27px;
+ 
   font: bold;
   color: #ffff;
   background-color: #fa382f;
-  display:inline;
+  display: inline;
   
 }
 
@@ -42,9 +43,11 @@ p {
   /*margin-left: 40px;*/
 }
 
+
+
 /*********** HEADER********/
 
-.hero-container .container {
+header {
   /* The "linear-gradient" gives a darker feeling to the her image*/
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/Deskpic.JPG");
   background-repeat: no-repeat;
@@ -53,48 +56,37 @@ p {
   background-position: center;
   /* The image change size on all screens */
   position: relative;
-  /*align-content: center;
-  text-align: center;*/
- 
 }
+
 .header-label p {
-  top: 209px;
-  left: 49px;
-  width: 253px;
-  height: 15px;
-  text-align: left;
   font: Bold 13px/15px Roboto;
   letter-spacing: 0.52px;
   color: #FFFFFF;
   opacity: 1;
   position: relative;
-
 }
+
 .header-label h1 {
-  top: 199px;
-  left: 49px;
-  width: 500px;
-  text-align: left;
   font: Bold 40px/49px Montserrat;
   letter-spacing: 0;
   color: #FFFFFF;
   opacity: 1;
   position: relative;
-  display: wrap;
+  display: inline;
 }
+
 .profile-pic {
-  top: 159px;
+  /*top: 159px;
   left: 176px;
   width: 170px;
-  height: 200px;
+  height: 200px;*/
   display: flex;
   position: relative;
   z-index: 1;
   left: 50%;
-
 }
 
-.hero-container img {
+.header-profile {
   width: 162px;
   height: 192px;
   border: 3px solid #FFFFFF;
@@ -102,37 +94,45 @@ p {
   opacity: 1;
 }
 
-
-
-
-
 /*********ICON BAR IN HEADER********/
 
+/*.container .icon {
+ position: relative;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 2px solid white;
+  background: black;
+  color: white;
+ 
+}
 /*.iconContainer {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   margin-right: 10%;
   position: relative;
-  z-index: 1;
+
   bottom: 400px;
   background: yellow;
 }
 ​
-.icon {
+.icon { 
   margin-top: 10%;
   width: 40px;
   height: 39px;
   border-radius: 100%;
   border: 2px solid white;
   position: relative;
-  z-index: 1;
+
 }
 ​
 .iconImg {
   color: white;
   position: relative;
-  z-index: 1;
+
   top: 7px;
   left: 7px;
   width: 20px;
@@ -144,15 +144,12 @@ p {
 .summary-box {
   top: 571px;
   left: 37px;
-  width: 302px;
-  height: 228px;
+  width: 275px;
+  height: 258px;
   text-align: left;
-  font: Regular 17px/29px Montserrat;
-  color: #000000;
-  letter-spacing: 0;
   opacity: 1;
-  margin: 20px;
   padding: 50px;
+  margin: 0px;
   background: #F4F4F4 0% 0% no-repeat padding-box;
 }
 
@@ -160,59 +157,51 @@ p {
   background: #FFFFFF 0% 0% no-repeat padding-box;
   top: 981px;
   left: 36px;
-  width: 302px;
-  height: 228px;
-  margin: 0;
+  width: 275px;
+  height: 258px;
   padding: 50px;
   text-align: center;
-  font: Regular 17px/29px Montserrat;
-  letter-spacing: 0;
-  color: #000000;
   opacity: 1;
 }
 
 .projects-container {
   top: 571px;
   left: 37px;
-  width: 302px;
-  height: 228px;
-  text-align: left;
-  font: Regular 17px/29px Montserrat;
-  color: #000000;
-  letter-spacing: 0;
+  width: 275px;
+  height: 1258px;
+  text-align: center;
   opacity: 1;
-  margin: 20px;
   padding: 50px;
   background: #F4F4F4 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-flow: wrap;
 }
-
-.flex-projects {
-  background: #fff;
-  border: 2px solid darkgray;
-  padding: 16px;
-  margin-bottom: 32px;
-  margin: 50px auto;
-  background: rgba(195, 213, 224, 0.877);
-  width: 90%;
+.projects {
+  width: 275px;
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.projects-container div {
+  width: 398px;
+  height: 25px;
+  padding: 10px;
 }
 
-.flex-projects img{
-  width: 100px;
-  height: 100px;
-  background: #fbe9e4;
-  color: darkgray;
-  width: 90%;
-  font-size: 12px;
-  border: 3px solid darkgray;
-  margin-bottom: 10px;
-  padding: 10px;
-  
-}
+.projects img{
+  left: 36px;
+  width: 303px;
+  height: 179px;
+  opacity: 0.38;
+  }
 /*******FOOTER *********/
 
 footer {
@@ -230,9 +219,6 @@ footer {
 
 @media (min-width: 1024px) {
  
-  .container{
-    padding-bottom: 0px;
-  }
 
   .summary-box {
     top: 785px;
@@ -241,7 +227,6 @@ footer {
     height: 192px;
     text-align: left;
     margin-right: 10%;
-    font: Regular 30px/50px Montserrat;
     letter-spacing: 0;
     color: #000000;
     opacity: 1;
@@ -252,7 +237,6 @@ footer {
     width: 1088px;
     height: 150px;
     text-align: center;
-    font: Regular 30px/50px Montserrat;
     letter-spacing: 0;
     opacity: 1;
   }
