@@ -24,7 +24,6 @@ h1 {
 
 h2 {
   font-size: 27px;
- 
   font: bold;
   color: #ffff;
   background-color: #fa382f;
@@ -141,6 +140,8 @@ header {
   
 /*****INFORMATION SECTION******/
 
+
+/**SUMMARY**/
 .summary-box {
   top: 571px;
   left: 37px;
@@ -153,6 +154,7 @@ header {
   background: #F4F4F4 0% 0% no-repeat padding-box;
 }
 
+/**TECH**/
 .tech-box {
   background: #FFFFFF 0% 0% no-repeat padding-box;
   top: 981px;
@@ -163,7 +165,7 @@ header {
   text-align: center;
   opacity: 1;
 }
-
+/**PROJECTS**/
 .projects-container {
   top: 571px;
   left: 37px;
@@ -177,8 +179,9 @@ header {
   flex-flow: wrap;
 }
 .projects {
-  width: 275px;
-  height: auto;
+  right: 10px;
+  width: 303px; 
+  height: 295px;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -190,10 +193,10 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.projects-container div {
-  width: 398px;
-  height: 25px;
-  padding: 10px;
+.projects-container h2 {
+  width: 758px;
+  height: 95px;
+  
 }
 
 .projects img{
