@@ -6,15 +6,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.hero-container {
-  width: 562px;
-  height: 308px;
-  width: 80%;
-  margin: 0 auto;
-  padding: 100px 0;
-  align-content: center;
-  text-align: left;
-}
 
 h1 {
   margin: 49px;
@@ -36,7 +27,6 @@ h3 {
 }
 
 h4 {
-  
   font: Regular 17px/29px Roboto;
   color: #fa382f;
   text-align: left;
@@ -63,6 +53,39 @@ header {
   position: relative;
 }
 
+.hero-container {
+  height: 308px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.hero-container container {
+  width: 150px;
+  height: 200px;
+  background: yellow;
+}
+/*.smIcon {
+  top: 10px;
+  width: 325px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+
+.logoCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: 105px;
+  width: 40px;
+  height: 40px;
+}*/
+
 .header-label p {
   font: Bold 13px/15px Roboto;
   letter-spacing: 0.52px;
@@ -81,10 +104,6 @@ header {
 }
 
 .profile-pic {
-  /*top: 159px;
-  left: 176px;
-  width: 170px;
-  height: 200px;*/
   display: flex;
   position: relative;
   z-index: 1;
@@ -92,57 +111,37 @@ header {
 }
 
 .header-profile {
-  width: 162px;
-  height: 192px;
+  width: 152px;
+  height: 162px;
   border: 3px solid #FFFFFF;
-  border-radius: 100px;
+  border-radius: 90px;
   opacity: 1;
 }
 
 /*********ICON BAR IN HEADER********/
 
-/*.container .icon {
- position: relative;
-}
-.icon {
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
-  border: 2px solid white;
-  background: black;
-  color: white;
- 
-}
-/*.iconContainer {
+.header-icons {
+  height: 90px;
+  margin-left: 100px;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-right: 10%;
-  position: relative;
-
-  bottom: 400px;
-  background: yellow;
+  text-align: center;
+  margin-top: -60px;
 }
-​
-.icon { 
-  margin-top: 10%;
-  width: 40px;
-  height: 39px;
-  border-radius: 100%;
-  border: 2px solid white;
-  position: relative;
 
+.hIconCircle{
+  width: 49px;
+  height: 49px;
+  border: 3px solid #ffff;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-top: 25px; 
 }
-​
-.iconImg {
-  color: white;
-  position: relative;
 
-  top: 7px;
-  left: 7px;
-  width: 20px;
-  height: 20px;
-}*/
+.hIconImg {
+  margin-top: 12px;
+  width: 22px;
+  height: 22px;
+}
   
 /***********INFORMATION SECTION*************/
 
@@ -447,25 +446,38 @@ ul.more {
   height: 22px;
 }
 
-.iconName {
-  display: flex;
-  align-content: space-between;
-  align-items: left;
-}
 
 
 /*******FOOTER *********/
 
-/*footer {
+footer {
   top: 4875px;
-  left: -3px;
+  left: 36px;
   width: 378px;
   height: 270px;
   font-size: 15px;
-  text-align: right;
-  color: darkgray;
   margin-right: 35px;
-}*/
+  background-color: blue;
+  color: #FFFFFF;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact h2 {
+  background-color: blue
+}
+
+.contact h3 {
+  color: #FFFFFF;
+}
+
+.contact p {
+  color: #FFFFFF;
+}
 
 /*******MEDIA QUERIES *********/
 
