@@ -192,6 +192,7 @@ header {
   background: #F4F4F4 0% 0% no-repeat padding-box;
   display: flex;
   flex-flow: wrap;
+  
 }
 
 .projects {
@@ -215,9 +216,10 @@ header {
 .pc-header {
   width: 508px;
   height: 35px;
-  font: 700 21px/25px Montserrat;
   margin-top: 60px;
   text-align: center;
+  font: 700 21px/25px Montserrat;
+ 
 }
 
 .projects img{
@@ -277,7 +279,6 @@ header {
 /****MY THOUHGTS****/
 
 .myThoughts-box {
- 
   left: 37px;
   width: 355px;
   height: 1557px;
@@ -288,7 +289,6 @@ header {
 }
 
 .linkedin {
-
   left: 20px;
   width: 303px; 
   height: 495px;
@@ -327,6 +327,8 @@ header {
   font: 400 17px/32px Roboto;
 }
 
+/*******MORE THOUGHTS ********/
+
 .moreThoughts {
   top: 101px;
   left: 37px;
@@ -347,13 +349,14 @@ header {
  font: 700 17px/29px Roboto;
 }
 
+/*******SKILLS*****/
+
 .skills-box {
   top: 3805px;
   left: 36px;
   width: 375px;
   height: 780px;
   opacity: 1;
-  
   background: #F4F4F4 0% 0% no-repeat padding-box;
   font: 400 17px/29px Roboto;
   text-align: center;
@@ -395,6 +398,59 @@ ul.more {
   padding: 20px;
   float: left;
   width: 33%;;
+}
+
+/*****FOR MORE******/
+.forMore-box {
+  top: 101px;
+  left: 37px;
+  width: 295px;
+  height: 200px;
+  padding: 20px;
+  margin: 20px;
+  opacity: 1;
+  display: flex;
+  flex-flow: wrap;
+}
+.pc-header {
+  width: 508px;
+  height: 35px;
+  font: 700 21px/25px Montserrat;
+  margin-top: 10px;
+}
+
+.icons {
+  width: 325px;
+  height: 200px;
+  display: flex;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.iconCircle{
+  width: 59px;
+  height: 59px;
+  border: 3px solid #FA382F;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 105px; 
+}
+
+.iconImg {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 18px;
+  width: 22px;
+  height: 22px;
+}
+
+.iconName {
+  display: flex;
+  align-content: space-between;
+  align-items: left;
 }
 
 
