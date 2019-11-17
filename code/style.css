@@ -277,8 +277,10 @@ header {
 /****MY THOUHGTS****/
 
 .myThoughts-box {
+ 
   left: 37px;
   width: 355px;
+  height: 1557px;
   opacity: 1;
   padding-left: 20px;
   display: flex;
@@ -286,20 +288,20 @@ header {
 }
 
 .linkedin {
+
   left: 20px;
   width: 303px; 
   height: 495px;
   display: flex;
   flex-wrap: wrap;
   position: relative;
- 
 }
 
-.linkedin img {
+.linkedinPic {
   left: 37px;
   width: 320px;
   height: 159px;
-  padding-top: 30px;
+ 
 }
 
 .linkedin-date {
@@ -349,13 +351,52 @@ header {
   top: 3805px;
   left: 36px;
   width: 375px;
-  height: 774px;
+  height: 780px;
   opacity: 1;
-  padding-left: 20px;
+  
   background: #F4F4F4 0% 0% no-repeat padding-box;
+  font: 400 17px/29px Roboto;
+  text-align: center;
+  color: black;
   display: flex;
   flex-flow: wrap;
 }
+
+.list-header {
+  font: 700 17px/29px Roboto;
+  color: #fa382f;
+  padding-top: 10px;
+}
+ul.code {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  
+}
+ul.toolbox {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  float: left;
+  width: 33%;
+}
+ul.upcoming {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding: 20px;
+  float: left;
+  width: 33%;
+}
+ul.more {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding: 20px;
+  float: left;
+  width: 33%;;
+}
+
 
 /*******FOOTER *********/
 
