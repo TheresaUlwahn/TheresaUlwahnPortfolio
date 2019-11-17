@@ -23,20 +23,28 @@ h1 {
 }
 
 h2 {
-  font-size: 27px;
+  font: Bold 21px/25px Montserrat;
   color: #ffff;
   background-color: #fa382f;
   display: inline;
 }
 
 h3 {
-  font-size: 27px;
+  font: Bold 21px/25px Montserrat;
   color: #fa382f;
+  margin: 0px;
+}
+
+h4 {
+  
+  font: Regular 17px/29px Roboto;
+  color: #fa382f;
+  text-align: left;
 }
 
 p {
-  /*font-size: 29px;*/
-  line-height: 2;
+  font-size: 12px;
+  line-height: 2.0;
   color: #000000;
 }
 
@@ -178,7 +186,7 @@ header {
   top: 571px;
   left: 37px;
   width: 355px;
-  height: 1158px;
+  height: 1358px;
   opacity: 1;
   padding-left: 20px;
   background: #F4F4F4 0% 0% no-repeat padding-box;
@@ -189,7 +197,7 @@ header {
 .projects {
   left: 20px;
   width: 303px; 
-  height: 295px;
+  height: 305px;
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -207,7 +215,8 @@ header {
 .pc-header {
   width: 508px;
   height: 35px;
-  margin-top: 100px;
+  font: 700 21px/25px Montserrat;
+  margin-top: 60px;
   text-align: center;
 }
 
@@ -219,10 +228,10 @@ header {
 }
 
 .projects-info {
-  top: 571px;
+  top: 515px;
   left: 37px;
   width: 303px;
-  height: 120px;
+  height: 100px;
   text-align: left;
   align-items: left;
  
@@ -248,16 +257,19 @@ header {
 }
 
 .pc-header2 {
-  width: 508px;
-  height: 35px;
-  padding-bottom: 0px;
+  top: 2546;
+  left: 37px;
+  width: 500px;
+  height: 25px;
+  font: 700 21px/23px Montserrat;
+  margin-bottom: 0px;
   text-align: center;
 }
 
 .other-projects {
   left: 20px;
   width: 303px; 
-  height: 295px;
+  height: 305px;
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -265,10 +277,8 @@ header {
 /****MY THOUHGTS****/
 
 .myThoughts-box {
-  top: 571px;
   left: 37px;
   width: 355px;
-  height: 400px;
   opacity: 1;
   padding-left: 20px;
   display: flex;
@@ -278,40 +288,87 @@ header {
 .linkedin {
   left: 20px;
   width: 303px; 
-  height: 295px;
+  height: 495px;
   display: flex;
   flex-wrap: wrap;
   position: relative;
+ 
 }
 
-.linkedin img{
-  left: 36px;
+.linkedin img {
+  left: 37px;
   width: 320px;
   height: 159px;
   padding-top: 30px;
 }
 
-.linkedin-date p{
-  font-size: 19px;
-  color: #fa382f;
+.linkedin-date {
+  width: 125px;
+  height: 30px;
   line-height: 1.5px; 
+  text-align: left;
+ 
+}
+.linkedin-date p {
+  font: 400 17px/29px Roboto;
+  color: #fa382f;
+  padding-top: 10px;
 }
 
-.linkedin-teaser {
-  font: Bold 21px/32px Roboto;
-  color: #0000;
+.linkedin-headline p {
+  font: 700 21px/32px Roboto;
+  margin-top: 10px;
+}
+
+.linkedin-teaser p {
+  text-align: left;
+  font: 400 17px/32px Roboto;
+}
+
+.moreThoughts {
+  top: 101px;
+  left: 37px;
+  width: 295px;
+  height: 400px;
+  opacity: 1;
+  display: flex;
+  flex-flow: wrap;
+}
+.moreThoughts-date h4 {
+  font: 400 17px/25px Roboto;
+  color: #fa382f;
+  margin: 0px;
+  padding: 0px, 8px;
+}
+
+.moreThoughts p {
+ font: 700 17px/29px Roboto;
+}
+
+.skills-box {
+  top: 3805px;
+  left: 36px;
+  width: 375px;
+  height: 774px;
+  opacity: 1;
+  padding-left: 20px;
+  background: #F4F4F4 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-flow: wrap;
 }
 
 /*******FOOTER *********/
 
-footer {
-  width: 1920px;
-  height: 573px;
+/*footer {
+  top: 4875px;
+  left: -3px;
+  width: 378px;
+  height: 270px;
   font-size: 15px;
   text-align: right;
   color: darkgray;
   margin-right: 35px;
-}
+}*/
 
 /*******MEDIA QUERIES *********/
 
