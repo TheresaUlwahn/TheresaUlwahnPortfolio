@@ -65,26 +65,6 @@ header {
   height: 200px;
   background: yellow;
 }
-/*.smIcon {
-  top: 10px;
-  width: 325px;
-  height: 50px;
-  display: flex;
-  justify-content: flex-end;
-  margin: 10px;
-}
-
-.logoCircle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 3px solid #FFFFFF;
-  border-radius: 50%;
-  margin-right: 10px;
-  margin-top: 105px;
-  width: 40px;
-  height: 40px;
-}*/
 
 .header-label p {
   font: Bold 13px/15px Roboto;
@@ -483,21 +463,51 @@ footer {
 
 
 
-@media (min-width: 1024px) {
+@media only screen and (min-width: 1100px) {
  
+  /*******Header*****/ 
+
+  .header-icons {
+    top: 108px;
+    left: 1044px;
+    width: 400px;
+    height: 100px;
+    object-position: right;
+    float: right;
+    margin-left: 100px;
+  }
+
+  .profile-pic {
+    justify-content: center;
+    margin-top: -100px;
+    margin-left: 400px;
+    top: 279px;
+  }
+
+  .header-profile img{
+    width: 288px;
+    height: 288px;
+    border: 4px solid #FFFFFF;
+  }
+
+
+  /*******Summary*****/ 
 
   .summary-box {
     top: 785px;
     left: 416px;
     width: 1088px;
     height: 192px;
-    text-align: left;
+    text-align: center;
     margin-right: 10%;
     letter-spacing: 0;
     color: #000000;
     opacity: 1;
   }
-  .tech-box {
+
+  /*******Tech*****/ 
+  
+    .tech-box {
     top: 1371px;
     left: 416px;
     width: 1088px;
@@ -506,18 +516,147 @@ footer {
     letter-spacing: 0;
     opacity: 1;
   }
+
+    /*******Projects*****/ 
+
   .projects-container{
-    flex-direction: row;
-    align-items: center;
+    top: 1642px;
+    left: 416px;
+    width: 1088px;
+    height: 913px;
+    object-position: center;
+    display: flex;
+    flex-flow: wrap;
   }
-  .flex-projects{
+
+  .pc-header {
+    width: 542px;
+    font: 700 21px/25px Montserrat;
+    margin-top: 30px;
+    margin-left: 286px;
+  }
+
+  .projects {
+    top: -240px;
+    left: 216px;
+    position: center;
+    flex-grow: 1;
+  }
+
+  .hero-text {
+    left: 154px;
+  
+  }
+  .other-projects {
+    top: 100px;
+    left: -379px;
+    display: flex;
+    flex-flow: wrap;
+  }
+
+    /*******More Thoughts & Linkedin*****/ 
+
+  .myThoughts-box {
+    top: 1642px;
+    left: 416px;
+    width: 1088px;
+    height: 913px;
+    object-position: center;
+    display: flex;
+    flex-flow: wrap;
+  }
+  .linkedin {
+    top: -141px;
+    left: 126px;
+    flex-grow: 1;
+  }
  
+  .linkedinPic {
+    margin-top: 21px;
+    top: 94px;
+    height: 258px;
+    width: 431px;
+  }
+
+  .linkedin-teaser{
+    height: 300px;
+    width: 500px;
+    left:216px;
+    text-align: center;
+  }
+
+  /*******More Thoughts*****/  
+  
+  .moreThoughts {
+    width: 25%;
     flex-grow: 1;
     margin: 16px;
   }
-  .flex-projects img{
-    object-position: bottom;
+  
+  .pc-header2 {
+    width: 542px;
+    margin-top: 30px;
+    margin-left: 125px;
+  }
+  
+  .moreThoughtsTeasers {
+    width: 40%;
     flex-grow: 1;
     margin: 16px;
   }
+
+  /*******Skills*****/  
+
+  ul {
+    width: 376px;
+    height: 233px;
+  }
+
+  .skills-box {
+    height: 613px;
+    width: 101%;
+    padding-left: 148px;
+  }
+
+  /*******For More Links*****/  
+  .forMore-box {
+    top: 1642px;
+    left: 416px;
+    width: 1088px;
+
+  }
+  .pc-header {
+      margin-top: 30px;
+      margin-left: 286px;
+    }
+
+    .icons {
+      margin-left: 388px;
+      object-position: center;
+      height: 757px;
+      left: 199px;
+    }
+  /*******Footer*****/  
+  footer {
+    height: 400px; 
+    width: 1198px;
+  }
+
+  .contact h2 {
+    font: Bold 36px Montserrat;
+    margin-top: -30px;
+  }
+
+  .contact h3 {
+    font: Bold 29px Roboto;
+    margin-bottom: -10px;
+  }
+
+
+  .contact p {
+    font: 25px Roboto;
+    margin-bottom: -18px;
+  }
+
 }
+  
