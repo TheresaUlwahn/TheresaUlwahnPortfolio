@@ -1,5 +1,8 @@
-body {
-  margin: 0;
+body, html {
+ 
+  margin: 0px;
+
+  overflow-x: hidden;
   background: #ffff;
   color:  #ffff;
   font-family: 'Montserrat', sans-serif;
@@ -461,9 +464,211 @@ footer {
 
 /*******MEDIA QUERIES *********/
 
+@media (min-width: 650px) {
 
 
-@media only screen and (min-width: 1100px) {
+  /*******Header*****/ 
+  .hero-container {
+    height: 308px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+  .header-icons {
+    top: 167px;
+    left: 1031px;
+    width: 243px;
+    height: 97px;
+    object-position: right;
+    margin-left: 406px;
+  }
+
+  .profile-pic {
+    top: 82px;
+    left: 426px;
+    margin-top: 0px;
+  }
+
+  .header-profile img{
+    top: 167px;
+    left: 1031px;
+  }
+
+
+  /*******Summary*****/ 
+
+  .summary-box {
+    top: 785px;
+    left: 416px;
+    width: 664px;
+    height: 140px;
+    text-align: center;
+    margin-right: 10%;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+  }
+
+  /*******Tech*****/ 
+  
+    .tech-box {
+    top: 1371px;
+    left: 416px;
+    width: 664px;
+    height: 150px;
+    text-align: center;
+    letter-spacing: 0;
+    opacity: 1;
+  }
+
+    /*******Projects*****/ 
+
+  .projects-container{
+    top: 1642px;
+    left: 416px;
+    width: 761px;
+    height: 413px;
+    object-position: center;
+    display: flex;
+    flex-flow: wrap;
+  }
+
+  .pc-header h2{
+    width: 514px;
+    font: 700 21px/25px Montserrat;
+    margin-top: 30px;
+    margin-right: 200px;
+  }
+
+  .projects {
+    top: 19px;
+    left: 27px;
+    position: center;
+    flex-grow: 1;
+  }
+
+  .hero-text {
+    left: 154px;
+  }
+    /*******More Thoughts & Linkedin*****/ 
+
+  .other-projects {
+    top: 100px;
+    left: -379px;
+    display: flex;
+    flex-flow: wrap;
+  }
+
+  .myThoughts-box {
+    top: 1642px;
+    left: 416px;
+    width: 664px;
+    height: 913px;
+    object-position: center;
+    display: flex;
+    flex-flow: wrap;
+  }
+  .linkedin {
+    top: -141px;
+    left: 126px;
+    flex-grow: 1;
+  }
+ 
+  .linkedinPic {
+    margin-top: 21px;
+    top: 94px;
+    height: 258px;
+    width: 431px;
+  }
+
+  .linkedin-teaser{
+    height: 300px;
+    width: 500px;
+    left:216px;
+    text-align: center;
+  }
+
+  .linkedintext {
+    height: 255px;
+  }
+
+  /*******More Thoughts*****/  
+  
+  .moreThoughts {
+    width: 25%;
+    flex-grow: 1;
+    margin: 10px;
+    height: 237px;
+    top: 100px;
+    left: 216px;
+  }
+  
+  .pc-header2 {
+    width: 542px;
+    margin-top: -22px;
+    margin-left: -31px;
+  }
+  
+  .moreThoughtsTeasers {
+    width: 40%;
+    flex-grow: 1;
+    margin: 16px;
+  }
+
+  /*******Skills*****/  
+
+  ul {
+    width: 301px;
+    height: 246px;
+  }
+
+  .skills-box {
+    height: 627px;
+    width: 900px;
+    padding-left: 0px;
+    flex-flow: wrap;
+  }
+
+  /*******For More Links*****/  
+  .forMore-box {
+    top: 1630px;
+    left: 408px;
+    width: 658px;
+
+  }
+  .pc-header {
+    margin-top: 31px;
+    margin-left: 239px;
+    }
+
+    .icons {
+      margin-left: 183px;
+    }
+  /*******Footer*****/  
+  footer {
+    height: 400px; 
+    width: 787px;
+  }
+
+  .contact h2 {
+    font: Bold 36px Montserrat;
+    margin-top: -30px;
+  }
+
+  .contact h3 {
+    font: Bold 29px Roboto;
+    margin-bottom: -10px;
+  }
+
+
+  .contact p {
+    font: 25px Roboto;
+    margin-bottom: -18px;
+  }
+
+}
+  
+@media (min-width: 1024px) {
  
   /*******Header*****/ 
 
@@ -478,10 +683,9 @@ footer {
   }
 
   .profile-pic {
-    justify-content: center;
-    margin-top: -100px;
-    margin-left: 400px;
-    top: 279px;
+    margin-top: -135px;
+    margin-left: 156px;
+    top: 291px;
   }
 
   .header-profile img{
@@ -522,7 +726,7 @@ footer {
   .projects-container{
     top: 1642px;
     left: 416px;
-    width: 1088px;
+    width: 1129px;
     height: 913px;
     object-position: center;
     display: flex;
