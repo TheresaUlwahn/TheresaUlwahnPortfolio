@@ -37,7 +37,7 @@ p {
 }
 
 header {
-  /* The "linear-gradient" gives a darker feeling to the her image*/
+  /* The "linear-gradient" gives a darker feeling to the hero image*/
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("assets/Deskpic.JPG");
   background-repeat: no-repeat;
