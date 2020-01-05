@@ -72,8 +72,8 @@ header {
 }
 
 .header-profile {
-  width: 152px;
-  height: 152px;
+  width: 132px;
+  height: 142px;
   border: 3px solid #fff;
   border-radius: 100%;
 }
@@ -99,6 +99,25 @@ header {
   height: 22px;
 }
 
+.intend {
+  position: relative;
+  top: -7px;
+  font-weight: 700;
+  color: #fa382f;
+}
+
+.circle {
+  width: 7px;
+  height: 7px;
+  padding: 5px;
+  position: relative;
+  margin-right: 5px;
+  top: 2px;
+  background-color: #fa382f;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 .box {
   width: 100%;
   display: flex;
@@ -121,7 +140,6 @@ header {
 
 .hero-text {
   font: 700 17px/19px Montserrat;
-  
 }
 
 .projects,
