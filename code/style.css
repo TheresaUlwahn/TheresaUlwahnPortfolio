@@ -150,7 +150,7 @@ header {
 }
 
 .projects img {
-  filter: brightness(50%);
+  /* filter: brightness(50%); */
   width: 100%;
 }
 
